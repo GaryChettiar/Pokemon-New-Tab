@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Pokémon Retro New Tab",
-  "version": "1.0.4",
-  "description": "A custom new tab page with a retro Pokémon game aesthetic, featuring a greeting, clock, search bar, and random Pokémon from PokéAPI.",
+  "version": "1.0.5",
+  "description": "A custom new tab page with a retro Pokémon game aesthetic, featuring a greeting, clock, search bar, and random animated Pokémon sprite.",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
@@ -12,7 +12,9 @@
     "128": "icon128.png"
   },
   "permissions": [
-    "storage",
+    "storage"
+  ],
+  "host_permissions": [
     "https://pokeapi.co/*"
   ]
 }
